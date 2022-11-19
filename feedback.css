@@ -1,0 +1,99 @@
+/* .a1:hover{
+    font-variation-settings: "FILL" 1,"wght" 900, "GRAD" 0, "opsz" 48 ;
+    cursor:pointer; 
+}
+.a2:hover {
+    font-variation-settings: "FILL" 1, "wght" 900, "GRAD" 0, "opsz" 48  ;
+    cursor:pointer; 
+}
+
+.a3:hover{
+    font-variation-settings: "FILL" 1, "wght" 900, "GRAD" 0, "opsz" 48  ;
+    cursor:pointer; 
+}
+.a4:hover{
+    font-variation-settings: "FILL" 1, "wght" 900, "GRAD" 0, "opsz" 90  ;
+    cursor:pointer; 
+}
+.a5:hover{
+    font-variation-settings: "FILL" 1, "wght" 900, "GRAD" 0, "opsz" 48  ;
+    cursor:pointer; 
+} */
+*{
+    padding: 0%;
+}
+.fillit{
+    font-variation-settings: "FILL" 1,"wght" 900, "GRAD" 0, "opsz" 48 ;
+    cursor:pointer;
+}
+.empty{
+    font-variation-settings: "FILL" 0,"wght" 900, "GRAD" 0, "opsz" 48 ;
+    cursor:pointer;
+}
+body{
+    background-color: rgb(24, 24, 26);
+}
+.button{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: wheat;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.form{
+    text-align: center;
+    font-size: 25px ;
+    font-family: cursive;
+    color: white;
+    /* position: relative; */
+    /* margin: 2rem;
+    padding: 1%; */
+}
+input{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    background-color: wheat;
+    color: black;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 90;
+    padding: 1%;
+    /* font-size: 40px; */
+    /* height: 10%; */
+}
+.fs{
+    border-color: white;
+    /* display: block; */
+    margin: auto;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+::placeholder{
+    color: black;
+}
+
+textarea{
+ border-radius: 20px;  
+ background-color: wheat;   
+ font-size: 25px;
+ padding-left: 0.5rem;
+ padding-top: 0.15rem;
+}
+@media screen and (max-width:850px){
+    .name{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between ;
+        align-items: center;
+    }
+    .b1 {
+        margin-bottom: 1rem;
+    }
+}

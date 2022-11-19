@@ -1,0 +1,174 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="feedback.css" class="rel">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./favicon_io/ed.png" type="image/x-icon">
+  <title>E-Zone</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="navbar.css" class="rel">
+  <style>
+    .material-symbols-outlined:hover{
+      cursor: pointer;
+    }
+    .fillit {
+      font-variation-settings: "FILL" 1, "wght" 900, "GRAD" 0, "opsz" 48;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body class="body">
+  <nav id="navi" class="navi">
+    <div class="navbar">
+      <h2 class="logo">Electra-Zone</h2>
+      <ul class="options">
+        <li><a href="./main.html">HOME</a></li>
+        <li><a href="./category.html">CATEGORIES</a></li>
+        <li><a href="#footer">ABOUT US</a></li>
+        <li><a href="./contact.html">CONTACT US</a></li>
+        <li><a href="./feedback.html">FEEDBACK</a></li>
+        <li><a href="./signup.html">SIGN IN</a></li>
+
+      </ul>
+    </div>
+  </nav>
+  <fieldset class="fs">
+    <form>
+      <div class="form">
+        <div>
+          <h2>FEEDBACK FORM!</h2>
+        </div>
+        <div>
+          <p>1.FULL NAME</p>
+          <div class="name">
+            <input class="b1" type="text" placeholder="First Name" required />
+            <input type="text" required placeholder="Second Name" />
+          </div>
+        </div>
+        <div>
+          <p>2.E-mail*</p>
+          <input type="email" required placeholder="abc@gmail.com" />
+        </div>
+        <div>
+          <p>3.How did you find us?</p>
+          <input list="find" placeholder="Select" />
+          <datalist id="find">
+            <option value="Google Advertising"></option>
+            <option value="Instagram/Facebook Advertising"></option>
+            <option value="YouTube Advertising"></option>
+            <option value="Display Advertising"></option>
+            <option value="Google Organic Search"></option>
+            <option value="Social Media"></option>
+            <option value="YouTube Video"></option>
+            <option value="Blog/Article"></option>
+            <option value="From a Friend"></option>
+            <option value="Other"></option>
+          </datalist>
+        </div>
+        <div>
+          <p>4.Did you like our service?*</p>
+          <span onclick="fill(1,'rateit2')" class=" rateit2 material-symbols-outlined a1"> grade </span><span onclick="fill(2,'rateit2')" class="rateit2 material-symbols-outlined a2"> grade
+          </span><span onclick="fill(3,'rateit2')" class="rateit2 material-symbols-outlined a3"> grade </span><span onclick="fill(4,'rateit2')" class="rateit2 material-symbols-outlined a4">
+            grade </span><span onclick="fill(5,'rateit2')" class="rateit2 material-symbols-outlined a5"> grade </span>
+        </div>
+        <div>
+          <p>5.Do you recommend our service?*</p>
+
+          <span    onclick="fill(1,'rateit1')" class="rateit1 material-symbols-outlined a1"> favorite
+          </span><span    onclick="fill(2,'rateit1')" class=" rateit1 material-symbols-outlined  a2">
+            favorite </span><span    onclick="fill(3,'rateit1')"
+            class="material-symbols-outlined rateit1 a3"> favorite </span><span  
+             onclick="fill(4,'rateit1')" class="material-symbols-outlined rateit1 a4"> favorite </span><span
+               onclick="fill(5,'rateit1')" class=" rateit1 material-symbols-outlined a5"> favorite
+          </span>
+        </div>
+        <div>
+          <p>6.Do you like the performance of our service?*</p>
+          <span   onclick="fill(1,'rateit')"
+            class="rateit material-symbols-outlined a1">mood_bad</span>
+          <span   onclick="fill(2,'rateit')"
+            class="rateit material-symbols-outlined a2">sentiment_satisfied</span>
+          <span   onclick="fill(3,'rateit')" class="rateit material-symbols-outlined a3">mood</span>
+          <span   onclick="fill(4,'rateit')"
+            class="rateit material-symbols-outlined a4">sentiment_very_satisfied</span>
+          <span   onclick="fill(5,'rateit')"
+            class="rateit material-symbols-outlined a5">add_reaction</span>
+        </div>
+        <div>
+          <p>7.Suggestions and Questions</p>
+          <textarea rows="4" cols="20" type="textarea"></textarea>
+
+        </div>
+        <div class="submit">
+          <button class="button" type="submit" value="Submitted">Submit</button>
+        </div>
+      </div>
+    </form>
+  </fieldset>
+  <footer>
+    <div id="footer" class="footer">
+      <h2 class="ezone">
+        Electronix-Zone
+      </h2>
+      <p class="info">
+        Here you can buy any eletronic item like TV,LED,<br>
+        SMART-PHONE etc at whole sale prices..
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, officiis! Neque, fugiat odio? Error
+        harum maiores at minima commodi voluptate dolore enim qui rem eligendi deserunt, alias, voluptas
+        incidunt dolor.
+      </p>
+      <div class="social">
+        <li>
+          <a href="#navi"><img src="./favicon_io/home.png" alt=""></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/k_a_m_a_l_g_o_y_a_l/"><img src="./favicon_io/instagram.svg" alt=""></a>
+        </li>
+
+        <li>
+          <a><img src="./favicon_io/youtube.svg" alt=""></a>
+        </li>
+        <li>
+          <a><img src="./favicon_io/twitter.svg" alt=""></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/kamal.goyal.7798" /><img src="./favicon_io/facebook.png" alt=""></a>
+        </li>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // function unselect(classs) {
+    //   var x = document.querySelectorAll('.'+classs);
+    //   for (var i = 0; i < x.length; i++) {
+    //     x[i].classList.remove('fillit');
+    //   }
+    // };
+    function fill(a,classb) {
+      // console.log(a);
+      // console.log(document.querySelectorAll('.'+classb));
+      var x = document.querySelectorAll('.'+classb);
+      for (var i = 0; i < x.length; i++) {
+        x[i].classList.remove('fillit');
+      }
+      for (var i = 0; i < a; i++) {
+        x[i].classList.add  ('fillit');
+      }
+
+    };
+    const b=document.querySelector('.button');
+    b.addEventListener('click',function(){
+      alert("Thanks for your valuable Feedback!!");
+    });
+  </script>
+</body>
+
+</html>

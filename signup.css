@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  /* color: white; */
+  padding: 0%;
+}
+body{
+  background-color:  rgb(24, 24, 26);
+  margin: 0%;
+  padding: 0%;
+}
+fieldset {
+  justify-content: space-around;
+  align-items: center;
+  
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+}
+.full {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  /* border:  solid black; */
+  margin: 15px;
+  height: 40px;
+  width: 250px;
+  background-color: wheat ;
+  border-radius: 40px;
+  /* box-shadow: 1px; */
+  /* justify-content: center; */
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+
+.butt {
+  color: black;
+  font-size: 20px;
+  height: 40px;
+  width: 30%;
+  border-radius: 20px;
+  background-color: wheat;
+  cursor: pointer;
+}
+.submitt {
+  margin-top: 10px;
+  /* margin-right: 120px; */
+  text-align: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sidebar {
+  /* top:-40px; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+@media screen and (max-width: 800px) {
+  .full {
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+::placeholder{
+  color: black;
+  font-size: 20px;
+}
+.span{
+  font-size: 15px;
+}
+input.checkbox{
+  width: 20px;
+  height: 20px;
+}
+
+.fs{
+  width: 50%;
+  margin: auto;
+  padding: 0%;
+  margin-top: 3rem;
+}
+.input-textarea{
+  background-color: wheat;
+  border-radius: 20px;
+  text-align: center;
+  margin: 15px;
+  font-size: 20px;
+  padding-top: 0.5rem;
+  /* justify-content: cente; */
+  /* align-items: center; */
+}
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logos img{
+  /* padding: 1rem; */
+  height: 2rem;
+  width: 2rem;
+  
+}
+.logos img:hover{
+  transform: scale(1.5);
+  cursor:pointer;
+}
+.fa-instagram:hover{
+  transform: scale(1.5);
+  cursor:pointer;
+}
+.night{
+  background-color: white;
+  color: black;
+}
+.black{
+  color:black;
+  border: solid 2px black;
+  
+}
+i:hover{
+  cursor: pointer;
+}
